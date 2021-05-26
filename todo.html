@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>TODO App</title>
+</head>
+<body>
+    <h1>Welcome to TODO App!</h1>
+    <p>Click the circle to completely remove your item, <br>
+        or click "Mark as Complete" to cross it off."</p>
+    <div class="container">
+        <section class="half" id="forms">
+            <form action="" id="enterForm">
+                <label for="task">Enter Your Task To Complete</label>
+                <input type="text" name="task" id="task">
+                <button id="enterTask">Submit</button>
+            </form>
+            <form action="" id="completedForm">
+                <label for="completed">Enter The Task You Completed</label>
+                <input type="text" name="completed" id="completed">
+                <button id="completedTask">Mark as Complete</button>
+            </form>
+        </section>
+        <section class="half">
+            <div class="list">
+                <h3>Here Are Your Items</h3>
+                <ul>
+                    
+                </ul>
+            </div>
+        </section>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
