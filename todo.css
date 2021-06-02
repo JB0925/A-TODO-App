@@ -115,7 +115,13 @@ li {
     font-size: 18px;
     margin-top: -29px;
     margin-left: 100px;
-    outline: 0;
+    outline: none;
+    display: block;
     border: none !important;
     border-width: 0 !important;
+    box-shadow: none;
+}
+
+input[type="radio"] {
+    border: none;
 }
