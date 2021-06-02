@@ -16,7 +16,6 @@ p {
 h3 {
     align-self: center;
     font-size: 2rem;
-    /* top: 10.5rem; */
     text-align: center;
     
 } 
@@ -103,12 +102,9 @@ ul {
 
 li {
     font-size: 1rem;
-    /* margin-left: 70px; */
-    
     align-self: flex-start;
     margin-top: 10px;
     margin-left: 27px;
-    /* text-align: center; */
 }
 
 .radio {
@@ -124,4 +120,69 @@ li {
 
 input[type="radio"] {
     border: none;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    label {
+        font-size: 18px;
+    }
+    input {
+        width: 200px;
+        margin: auto;
+    }
+    button {
+        width: 210px;
+        margin: auto;
+    }
+    li {
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+    .radio {
+        margin-left: -30px;
+        margin-top: -1px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    h1 {
+        font-size: 2.0rem;
+    }
+    h3 {
+        font-size: 1.0rem;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    label {
+        font-size: 12px;
+    }
+    input {
+        width: 150px;
+        margin: auto;
+    }
+    button {
+        font-size: 15px;
+        width: 163px;
+        margin: auto;
+    }
+    li {
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+    .radio {
+        margin-left: -30px;
+        margin-top: -1px;
+    }
 }
